@@ -16,7 +16,10 @@ For Deliverable 1, I was tasked with evaulating three machine learning models by
 ![ClusterCentroid_UnderSampling](./ClusterCentroid_UnderSampling.png)
 
 ## Results
-- Accuracy: RandomOverSampling had a score of 0.65, SMOTE had a score of 0.64, and ClusterCentroid had teh lowest score of 0.53
+- Accuracy: 
+  - RandomOverSampling had a score of 0.65
+  - SMOTE had a score of 0.64
+  - ClusterCentroid had teh lowest score of 0.53
 - Precision: The precision between all three models remained unaffected.
 - Recall Score: The RandomOverSampling model had a mich higher score than SMOTE and the lowest recall score was from the ClusterCentroid with a recall score of 0.44
 
@@ -47,7 +50,7 @@ For Deliverable 3, I used the imblearn.ensemble library to train and compare two
 - Recall Scores: The recall scores were close to each other with a recall score from the BalancedRandomForestClassifier being a 0.91 and the EasyEnsemble score being a 0.94
 
 ## Summary 
-
+Out of all six models we worked with, I think the best model is the EasyEnsembleClassifier model simply due to the fact that it scoared above 90% for its test when compared to the other models. 
 
 ## Resources 
 - Jupyter Notebook
