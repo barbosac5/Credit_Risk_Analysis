@@ -7,7 +7,7 @@ The purpose of this analysis is to employ different techniques to train and eval
 For Deliverable 1, I was tasked with evaulating three machine learning models by using resampling to determine if any of the models (RandomOverSampling, SMOTE, and CLusterCentroids) are better at determining credit risk.
 
 #### RandomOverSampling Results
-(insert RandomOverSampling results)
+![Random_OverSampling](./Random_OverSampling.png)
 
 #### SMOTE Results
 (insert SMOTE results)
