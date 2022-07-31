@@ -16,7 +16,7 @@ For Deliverable 1, I was tasked with evaulating three machine learning models by
 ![ClusterCentroid_UnderSampling](./ClusterCentroid_UnderSampling.png)
 
 ## Results
-- Accuracy:
+- Accuracy: RandomOverSampling had a score of 0.65, SMOTE had a score of 0.64, and ClusterCentroid had teh lowest score of 0.53
 - Precision: The precision between all three models remained unaffected.
 - Recall Score: The RandomOverSampling model had a mich higher score than SMOTE and the lowest recall score was from the ClusterCentroid with a recall score of 0.44
 
@@ -28,9 +28,9 @@ For Deliverable 2, I used the combined approach of over and under-sampling with 
 ![SMOTEEN_Over_Under_Sampling](./SMOTEENN_Over_Under_Sampling.png)
 
 ## Results
-- Accuracy: 
-- Precision: 
-- Recall Score: 
+- Accuracy: The accuracy of the SMOTEENN is 0.64
+- Precision: The precision is 0.99
+- Recall Score: The recal score is 0.57
 
 ### Deliverable 3: Use Ensemble Classifiers to Predict Credit Risk
 For Deliverable 3, I used the imblearn.ensemble library to train and compare two different classifiers (BalancedRandomForestClassifier, and EasyEnsembleClassifier) to predit credit risk.
@@ -42,9 +42,9 @@ For Deliverable 3, I used the imblearn.ensemble library to train and compare two
 ![eec_model](./eec_model.png)
 
 ## Results
-- Accuracy:
-- Precision:
-- Recall Scores:
+- Accuracy: The EasyEnsemble model scored the highest with 0.92 accuracy while the BalancedRandomForestClassifier had a score of 0.79
+- Precision: The precision for both of the models is 0.99
+- Recall Scores: The recall scores were close to each other with a recall score from the BalancedRandomForestClassifier being a 0.91 and the EasyEnsemble score being a 0.94
 
 ## Summary 
 
