@@ -50,7 +50,7 @@ For Deliverable 3, I used the imblearn.ensemble library to train and compare two
 - Recall Scores: The recall scores were close to each other with a recall score from the BalancedRandomForestClassifier being a 0.91 and the EasyEnsemble score being a 0.94
 
 ## Summary 
-Out of all six models we worked with, I think the best model is the EasyEnsembleClassifier model simply due to the fact that it scoared above 90% for its test when compared to the other models. 
+Out of all six models we worked with, I think the best model is the EasyEnsembleClassifier model simply due to the fact that it scoared above 90% for the accuracy, precision as well as the recall scores. Even though some of the other models had a similar overall precision (such as BalancedRandomForestClassifier, and the SMOTEENN models) the EasyEnsembleClassifier had a much higher overall score than the other models since the other models would have scores that dropped into the low 80s as well as even 70s or 60 score range. An example being that the BalancedRandomForestClassifier having an accuracy score of 0.79 and the recall score for the SMOTEENN model being as low as 0.57. The randomOverSampling, SMOTE, and ClusterCentroid models do not even compete with the EasyEnsembleClassifier due to the fact that the highest scores with those three models were in the 0.50 - 0.65 range. The best model to use to determine credit risk would easily be the EasyEmsenbleClassifer model.
 
 ## Resources 
 - Jupyter Notebook
