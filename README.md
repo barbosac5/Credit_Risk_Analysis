@@ -10,25 +10,25 @@ For Deliverable 1, I was tasked with evaulating three machine learning models by
 ![Random_OverSampling](./Random_OverSampling.png)
 
 #### SMOTE Results
-(insert SMOTE results)
+![SMOTE_OverSampling](./SMOTE_OverSampling.png)
 
-#### ClusterCentroids Results
-(insert CLusterCentroid results)
+#### ClusterCentroid Results
+![ClusterCentroid_UnderSampling](./ClusterCentroid_UnderSampling.png)
 
 ### Deliverable 2: Use the SMOTEENN Algorithm to Predict Credit Risk
 For Deliverable 2, I used the combined approach of over and under-sampling with the SMOTEENN algorithm to determine if the if these results form a better approach at predicting the results from Deliverable 1.
 
 #### SMOTEENN Results
-(insert SMOTEENN results)
+![SMOTEEN_Over_Under_Sampling](./SMOTEEN_Over_Under_Sampling.png)
 
 ### Deliverable 3: Use Ensemble Classifiers to Predict Credit Risk
 For Deliverable 3, I used the imblearn.ensemble library to train and compare two different classifiers (BalancedRandomForestClassifier, and EasyEnsembleClassifier) to predit credit risk.
 
 #### BalancedRandomForestClassifier Results
-(insert BalancedRandomForestClassifier results)
+![brfc_model](./brfc_model.png)
 
 #### EasyEnsembleClassifier Results
-(insert EasyEnsembleClassifier results)
+![eec_model](./eec_model.png)
 
 ## Summary 
 
