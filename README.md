@@ -40,9 +40,11 @@ For Deliverable 2, I used the combined approach of over and under-sampling with 
 ![SMOTEEN_Over_Under_Sampling](./SMOTEENN_Over_Under_Sampling.png)
 
 ## Results
-- Accuracy: The accuracy of the SMOTEENN is 0.64
-- Precision: The precision is 0.99
-- Recall Score: The recal score is 0.57
+- Accuracy: The accuracy of the SMOTEENN model is 0.64
+- Precision: The precision for high risk is low and the low risk precision is high
+- Recall Score: 
+  - The high risk score is 0.70
+  - The low risk score is 0.57
 
 ### Deliverable 3: Use Ensemble Classifiers to Predict Credit Risk
 For Deliverable 3, I used the imblearn.ensemble library to train and compare two different classifiers (BalancedRandomForestClassifier, and EasyEnsembleClassifier) to predit credit risk.
