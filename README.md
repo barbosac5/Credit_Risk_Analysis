@@ -61,7 +61,7 @@ For Deliverable 3, I used the imblearn.ensemble library to train and compare two
   - BalancedRandomForestClassifier had a score of 0.79
 - Precision:
   - The High Risk precision for BalancedRandomForestClassifier is low and the low risk is high
-  - The High Risk precision for EasyEmsemble is        and the low risk is 
+  - The High Risk precision for EasyEmsemble is low and the low risk is high
 - Recall Scores: 
   - The high risk score for BalancedRandomForestClassifier is low and the low risk is high 
   - The high risk score for EasyEmsemble is high and the low risk is high
