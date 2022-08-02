@@ -20,8 +20,17 @@ For Deliverable 1, I was tasked with evaulating three machine learning models by
   - RandomOverSampling had a score of 0.65
   - SMOTE had a score of 0.64
   - ClusterCentroid had teh lowest score of 0.53
-- Precision: The precision between all three models remained unaffected.
-- Recall Score: The RandomOverSampling model had a mich higher score than SMOTE and the lowest recall score was from the ClusterCentroid with a recall score of 0.44
+- Precision: 
+  - RandomOverSampling: High Risk precision is low; Low Risk precision is high
+  - SMOTE: High Risk precision is low; Low Risk precision is high
+  - ClusterCentroid: High Risk precision is lowl Low Risk precision is high
+              
+- Recall Score: 
+  -  The recall score between all three models are as follows:
+              - RandomOverSampling: High Risk is 0.62; Low Risk is 0.68
+              - SMOTE: High Risk is 0.63; Low risk is 0.66
+              - ClusterCentroid: High Risk and low risk is the lowest of the three being 0.59 and 0.44 respectiely 
+  - The RandomOverSampling model had a mich higher score than SMOTE and the lowest recall score was from the ClusterCentroid with a recall score of 0.44
 
 
 ### Deliverable 2: Use the SMOTEENN Algorithm to Predict Credit Risk
